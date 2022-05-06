@@ -1,0 +1,90 @@
+body
+{
+    background: #EFF1FA;
+}
+
+.formulario
+{
+	display: inline-block;
+}
+
+#logo
+{
+	width: 31.09px;
+    height: 48px;
+    margin-top: 48px;
+    margin-left: 48px;
+}
+
+textarea
+{
+	width: 80%;
+    background: unset;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 20px;
+    margin: 14px;
+    margin-left: 48px;
+    text-align: left;
+    resize: none;
+    height: 275px;
+    padding: 3%;
+    border: unset;
+
+}
+
+#info
+{
+	margin-left: 48px;
+    margin-block-start: 15px;
+    display: inline-block;
+}
+
+p
+{
+	display: inline-block;
+}
+
+button
+{
+	width: 228px;
+    height: 50px;
+    margin: 30px;
+    margin-left: 35px;
+    border-radius: 24px;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 19px;
+	text-align: center;
+	border-color: #0A3871;
+}
+
+#enc_butt
+{
+	background: #0A3871;
+	color: #FFFFFF;
+}
+
+.salida
+{
+	display: inline-block;
+    vertical-align: top;
+    width: 590px;
+    height: 541px;
+    margin-left: 11%;
+}
+
+
+#traductor
+{
+	background: white;
+	border-radius: 10px;
+	display: flex;
+    align-content: flex-start;
+    width: 338px;
+    height: 410px;
+}
+
+

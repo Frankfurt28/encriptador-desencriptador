@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>ENCRIPTADOR</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="formulario">
+		<img id="logo" src="vector.png">
+		<br>
+		<textarea id="mensaje" rows="7" cols="10" placeholder="Ingrese el texto Aqui"
+		onkeypress="return (event.charCode >= 97 && event.charCode <= 122 || event.charCode == 32)" ></textarea>
+		<br>
+		<img id="info" src="informacion.png">
+		<p>Solo letras minúsculas y sin acentos</p>
+		<br>
+		<button id="enc_butt" onclick="encriptar()">Encriptar</button>
+		<button id="desEn_butt" onclick="desencriptar()">Desencriptar</button>
+	</div>
+	
+
+	<div class= "salida">
+	<textarea id="traductor" rows="7" cols="10" placeholder="Encriptando..." disabled></textarea>
+	<br>
+	<button id="copy_butt" onclick="copiar()">Copiar</button>
+	</div>
+	<p>©Frank Maximiliano Ibarra Ibarra</p>
+</body>
+</html>
+
+<script src="index.js">
+</script>
